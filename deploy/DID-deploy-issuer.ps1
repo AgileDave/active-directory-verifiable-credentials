@@ -127,7 +127,7 @@ $displayJson = @"
       "backgroundColor": "#C0C0C0",
       "textColor": "#ffffff",
       "logo": {
-        "uri": "https://$StorageAccountName.blob.core.windows.net/$($StorageAccountContainerName)public/logo.png",
+        "uri": "https://$StorageAccountName.blob.$($ctx.Environment.StorageEndpointSuffix)/$($StorageAccountContainerName)public/logo.png",
         "description": "$VCType Logo"
       },
       "description": "Use your verified credential card to prove you are an $VCType empoyee."
