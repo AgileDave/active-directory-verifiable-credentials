@@ -21,7 +21,7 @@ You should make sure that you can connect to your subscription via running
 Connect-AzAccount -SubscriptionId <your-subscription-guid>
 ```
 
-Then run the below command after replacing the respective parameters with the names your choose.
+Then run the below command after replacing the respective parameters with the names of your choice.
 
 ```powershell
 .\DID-deploy-issuer.ps1 -ResourceGroupName "did-rg" -Location "West Europe" `
@@ -30,7 +30,7 @@ Then run the below command after replacing the respective parameters with the na
 ```
 
 The script will:
-- Register an app in Azure AD for your VC Issuer sample (the -IssuerAppName parameter)
+- Register an app in Azure AD for your VC Issuer sample (the -IssuerAppName parameter). 
 - Create the Resource Group, if it not already exists
 - Deploy the ARM template which will create:
     - An Azure Key Vault instance and create Access Policies for you as an admin and for the `Verifiable Credentials Issuer Service` app
