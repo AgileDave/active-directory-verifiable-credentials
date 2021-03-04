@@ -79,7 +79,7 @@ $didconfigJson = @"
     "azTenantId": "$($ctx.Tenant.Id)",
     "azClientId": "$client_id",
     "azClientSecret": "$appSecret",
-    "kvVaultUri": "https://$KeyVaultName.vault.azure.net/",
+    "kvVaultUri": "https://$KeyVaultName.$($ctx.Environment.AzureKeyVaultDnsSuffix)/",
     "kvSigningKeyId": "..update this...",
     "kvRemoteSigningKeyId" : "issuerSigningKeyIon- ... something in your KeyVault keys",
     "did": "did:ion: ... Issuer Identifier DID in the VC blade in portal.azure.com",
