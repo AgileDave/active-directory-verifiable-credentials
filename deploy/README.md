@@ -52,9 +52,9 @@ In the `Getting Started` section, you define
 - Domain
 - Key Vault - here you need to select the Key Vault instance that was created above. Since the ARM Template gave you and the `Verifiable Credentials Issuer Service` app the permissions needed, this should work. If it doesn't, it is a permission problem and you need to check the Access Policies on Key Vault.
 
-![Getting Started](./media/admin-screenshot-create-credential.png)
-
 In the `Credentials` section, you configure the Verifiable Credential you want to issue. The name you give to the credential should match the `-VCType` parameter you used when you invoked the powershell script above.
+
+![Getting Started](./media/admin-screenshot-create-credential.png)
 
 ## Design and Upload your VC Rules and Display files to your Azure Storage Account
 
