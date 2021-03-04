@@ -8,6 +8,8 @@ First, you need to make sure that you are using Azure Active Directory P1 or P2.
 ## Verify you can see Enterprise Application Verifiable Credentials Issuer Service
 Second, you need to make sure you see the application named `Verifiable Credentials Issuer Service` in the `Enterprise Application` section in the AAD blade. Switch to Type = `Microsoft Application` and search for it.
  
+![Verifiable Credentials Issuer Service](./media/admin-screenshot-search-apps.png)
+
 ## Run the deployment script
 In order to run this script, you need to have access to an Azure subscription that uses the intended Azure Active Directory as its authorative directory. If the subscription you intend to use is protected by another directory, you will not be able to issue credentials.
 
